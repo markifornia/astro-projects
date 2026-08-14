@@ -1,11 +1,22 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+
+const getUser = () => {
+	return Math.random() < 0.5 ? null : {
+		name: 'Mark',
+		email: 'mark@bookbites.com'
+	}
+}
+
+const user = getUser();
 ---
 
 <Layout>
 	<div class="content">
-		<h2>Welcome</h2>
+		{user && (
+		<h2>Welcome, {user.name}</h2>
+		<p>Logged in as {user.email}</p>
+		)}
 		<p>Lorem ipsum</p>
 		<a href="/books">Take a look at my reviews</a>
 	</div>
