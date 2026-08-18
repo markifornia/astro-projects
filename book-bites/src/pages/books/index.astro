@@ -1,19 +1,10 @@
 ---
 // This is the frontmatter
+import { getCollection } from "astro:content"
 import BookCard from '../../components/BookCard.astro';
 import Layout from '../../layouts/Layout.astro';
 
-interface Book {
-	title: string
-	author: string
-}
-
-const books: Book[] = [
-	{ title: 'The Name of The Wind', author: 'Patrick Rothfuss'},
-	{ title: 'The Final Empire', author: 'Brandon Sanderson'},
-	{ title: 'The Blade Itself', author: 'Joe Abercrombie'},
-	{ title: 'The Will of the Many', author: 'James Islington'}		
-]
+const books = await getCollection('books')
 
 ---
 

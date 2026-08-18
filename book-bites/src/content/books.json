@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "rating": 9,
+    "summary": "A gifted young man recounts his rise from a troubled childhood to becoming a legendary figure, blending magic, music, and mystery."
+  },
+  {
+    "id": "2",
+    "title": "The Final Empire",
+    "author": "Brandon Sanderson",
+    "rating": 9,
+    "summary": "In a world blanketed by ash under a tyrannical Lord Ruler, a young thief with rare powers joins a crew plotting the ultimate heist: overthrowing an empire."
+  },
+  {
+    "id": "3",
+    "title": "The Blade Itself",
+    "author": "Joe Abercrombie",
+    "rating": 8,
+    "summary": "A gritty tale following a scarred torturer, a vain swordsman, and a savage barbarian as their paths converge amid political intrigue and looming war."
+  },
+  {
+    "id": "4",
+    "title": "The Will of the Many",
+    "author": "James Islington",
+    "rating": 7,
+    "summary": "In an empire built on a system where the strong can drain the will of the weak, a hidden heir infiltrates an elite academy to uncover long-buried secrets."
+  }
+]
